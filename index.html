@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Game</title>
+    <!-- styleSheet -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body>
+    <!-- HighScoresPage -->
+    <div class="scores"><a href="highscores.html">View Highscores</a></div>
+
+    <div class="timer">Time Remaining: <span id="time">0</span></div>
+    <!-- StartGame -->
+    <div class="wrapper">
+        <div id="start-screen" class="start">
+            <h1>Coding Game</h1>
+            <p>Answer the following questions before the time runs out. Incorrect answers will penalize your
+                score/time by 15 seconds!</p>
+            <button id="start">Start Game</button>
+        </div>
+        <!-- QuestionsAndChoices -->
+        <div id="questions" class="hide">
+            <h2 id="question-title"></h2>
+            <div id="choices" class="choices"></div>
+        </div>
+        <!-- GameOver -->
+        <div id="end-screen" class="hide">
+            <h2>Finish!</h2>
+            <p>Your Score: <span id="final-score"></span>.</p>
+            <!-- EnterInitials -->
+            <p>
+                Enter Initials: <input type="text" id="initials" max="3" />
+                <button id="submit">Enter</button>
+            </p>
+        </div>
+
+        <div id="feedback" class="feedback hide"></div>
+    </div>
+    <!-- Scripts -->
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/logic.js"></script>
+</body>
+
+</html>
