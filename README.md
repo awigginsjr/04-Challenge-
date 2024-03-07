@@ -8,7 +8,7 @@ Developed a timed game on JavaScript fundamentals that stores high scores.
 
 ## Links
 
-[GitHub Link]https://github.com/awigginsjr/04-Challenge-.git
+[GitHub Link](https://github.com/awigginsjr/04-Challenge-.git)
 
 
-[Live Site]https://awigginsjr.github.io/04-Challenge-/
+[Live Site](https://awigginsjr.github.io/04-Challenge-/)
